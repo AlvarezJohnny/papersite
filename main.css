@@ -1,0 +1,52 @@
+.intro {
+  background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Background-Images-10.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 700px;
+  display: grid;
+  grid-template: 100px/80px 700px;
+}
+
+.types {
+  height: 500px;
+  weight: 1000px;
+  position: relative;
+  margin-left: 745px;
+  margin-top: 100px;
+}
+
+.signup {
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-top: 250px;
+}
+
+.signup h2 {
+  margin-left: 50px;
+}
+
+.signup input {
+  margin-left: 150px;
+}
+
+.join {
+  background-color: #4CAF50;
+  color: beige;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.first {
+  background-color: #5f9ea0;
+  height: 700px;
+}
+
+.second {
+  background-color: #696969;
+  height: 700px;
+}
