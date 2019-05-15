@@ -7,6 +7,28 @@
   grid-template: 100px/80px 700px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li :hover {
+  background-color: black;
+}
+
 .types {
   height: 500px;
   weight: 1000px;
@@ -30,7 +52,7 @@
 }
 
 .join {
-  background-color: #4CAF50;
+  background-color: green;
   color: beige;
   padding: 10px 30px;
   font-size: 16px;
@@ -46,6 +68,17 @@
   height: 700px;
 }
 
+.Newcome {
+  display: grid;
+  grid-template: 400px 300px/ 300px 300px 300px;
+}
+
+.Newcome img {
+  width: 250px;
+  height: 250px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
 .second {
   background-color: #696969;
   height: 700px;
